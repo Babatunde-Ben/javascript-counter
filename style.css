@@ -5,14 +5,14 @@
   box-sizing: border-box;
 }
 body {
-  background: url(./images.jpg) center/cover no-repeat;
+  background: url(./images/plain.jpg) center/cover no-repeat;
   max-height: 100vh;
   background-color: rgb(225, 163, 31);
   font-family: sans-serif;
 }
 .container {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(./images.jpg) center/cover no-repeat;
+    url(./images/plain.jpg) center/cover no-repeat;
   margin: calc((100vh - 30rem) / 2) auto;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,10 @@ body {
   align-items: center;
   width: 20rem;
   height: 30rem;
-  background-color: red;
+  /* overflow: hidden; */
+  /* width: 30%;
+  height: 70%;
+  background-color: red; */
   box-shadow: 0 5px 4px 2px black;
   border-radius: 5px;
   border: 2px solid white;
@@ -29,26 +32,27 @@ h2 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: 2.5em;
   text-shadow: 0px 0px 1.5px rgb(0, 0, 0);
 }
 .number {
-  /* height: 7rem; */
   color: rgb(56, 56, 56);
-  /* color: rgb(10, 153, 79); */
   font-size: 8rem;
   margin: 0.2em 0;
-  /* background-color: white; */
 }
 .container .count {
   letter-spacing: 0.5px;
+  font-size: 0.8em;
   text-transform: uppercase;
   padding: 0.7rem;
-  margin: 0.8rem;
+  margin: 0.5rem;
   border-radius: 5px;
   /* background-color: rgb(48, 36, 150); */
   background-color: rgb(70, 70, 70);
+  border: none;
+  /* outline: none; */
+  /* background-color: rgb(25, 25, 108); */
   color: white;
   cursor: pointer;
   box-shadow: 2px 2px 4px 2px rgb(16, 16, 16);
@@ -57,6 +61,25 @@ h2 {
 .container .count:active {
   background-color: rgb(84, 84, 84);
   color: rgb(230, 230, 230);
-  transform: scale(0.94);
-  /* transition-delay: 0.2s; */
+  transform: scale(0.97);
+}
+
+img {
+  width: 2em;
+  height: 2em;
+  margin-top: 2.2em;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+img:active {
+  transform: scale(0.97);
+}
+
+@media all and (max-width: 400px) {
+  .container {
+    width: 15rem;
+  }
+  h2 {
+    font-size: 2em;
+  }
 }
