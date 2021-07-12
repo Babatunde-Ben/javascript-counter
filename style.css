@@ -7,7 +7,7 @@
 body {
   background: url(./images/plain.jpg) center/cover no-repeat;
   max-height: 100vh;
-  background-color: rgb(225, 163, 31);
+  /* background-color: rgb(225, 163, 31); */
   font-family: sans-serif;
 }
 .container {
