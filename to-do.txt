@@ -1,3 +1,3 @@
-* include the repository link
+
 * modify the README.md file 
-* 
+	* change the "landing page" to "counter page"
