@@ -4,7 +4,7 @@ This project was inspired by **Side Hustle Internship 3.0**, front-end web devel
 
 ---
 
-This project is a web page which includes a box with the project title, a number, two buttons, and a github icon leading to my github repository.. With the aid of Javascript programming language, the two buttons were programmed to control the increment of the number and the decrement of the number within the range of 0-50
+This project is a web page which includes a box containing the project title, a number, two buttons, and a github icon leading to my github repository.. With the aid of Javascript programming language, the two buttons were programmed to control the increment of the number and the decrement of the number within the range of 0-50
 
 ---
 
@@ -16,11 +16,13 @@ You will need the following technologies to get the service running
 ---
 
 ### Here are the links related to my project
-[Github]("https://github.com/Babatunde-Ben/javascript-counter.git")
 
-[Live Preview]("https://counterjavascript.netlify.app/")
 
-[Task Given]("https://jsbeginners.com/wp-content/uploads/2019/05/counter-javascript-project.png")
+<https://counterjavascript.netlify.app/>
+
+<https://github.com/Babatunde-Ben/javascript-counter.git>
+
+---
 
 ### Acknowledgements
  I give thanks to everyone that has inspired/supported this service and that will support it in the future. To you I say thank you!
